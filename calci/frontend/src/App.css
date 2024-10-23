@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.history {
+  margin-top: 20px;
+  text-align: left;
+}
